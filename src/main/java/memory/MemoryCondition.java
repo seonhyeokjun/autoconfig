@@ -13,5 +13,7 @@ public class MemoryCondition implements Condition {
         String memory = context.getEnvironment().getProperty("memory");
         log.info("memory: {}", memory);
         return "on".equals(memory);
+
+
     }
 }
